@@ -52,7 +52,7 @@ const ExperienceSection = () => {
 				</div>
 
 				<div className="max-w-2xl mx-auto space-y-6">
-					{experiences.map((exp, index) => (
+					{experiences.map((exp) => (
 						<div
 							key={exp.company}
 							className="group relative bg-gray-800/30 backdrop-blur-sm rounded-xl p-6 border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300"
